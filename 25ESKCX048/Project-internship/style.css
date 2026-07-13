@@ -1,0 +1,75 @@
+/* Styles the entire background of the browser window */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f3;
+    display: flex;
+    justify-content: center; /* Centers the app horizontally */
+    align-items: center;     /* Centers the app vertically */
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styles the main white container card */
+.canteen-box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+h3 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    color: #34495e;
+}
+
+/* Layout for each food item row */
+.food-item {
+    display: flex;
+    justify-content: space-between; /* Pushes text to left, button to right */
+    align-items: center;
+    margin: 15px 0;
+}
+
+/* Styles all the tiny "Add" buttons */
+button {
+    background-color: #2ecc71; /* Green color */
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #27ae60; /* Darker green when hovered over */
+}
+
+/* Styles the receipt section box */
+.receipt {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* The big blue checkout button */
+.pay-btn {
+    width: 100%;
+    background-color: #3498db;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.pay-btn:hover {
+    background-color: #2980b9;
+}

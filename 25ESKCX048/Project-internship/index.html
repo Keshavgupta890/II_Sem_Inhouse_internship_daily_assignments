@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Canteen Pre-Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="canteen-box">
+        <h1>🏫 College Canteen</h1>
+        <p>Select your food and pre-order instantly!</p>
+
+        <div class="menu">
+            <h3>Today's Menu</h3>
+            
+            <div class="food-item">
+                <span>🍔 Burger - ₹40</span>
+                <button onclick="orderBurger()">Add to Cart</button>
+            </div>
+
+            <div class="food-item">
+                <span>🍕 Pizza - ₹60</span>
+                <button onclick="orderPizza()">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="receipt">
+            <h3>Your Bill</h3>
+            <p>Total Items: <span id="total-items">0</span></p>
+            <p>Total Price: ₹<span id="total-price">0</span></p>
+            
+            <button class="pay-btn" onclick="checkout()">Place Order</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
